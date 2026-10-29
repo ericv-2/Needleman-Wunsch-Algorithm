@@ -11,23 +11,17 @@ R program that aligns two protein sequences using the Needleman-Wunsch algorithm
 ## Requirements
 
 - R (tested with R 4.3.3)
-- The `blosum50.txt` file, in the same folder as the script
+- RStudio (recommended)
+- The `blosum50.txt` file
 
 ## Usage
 
-From the repository folder:
+1. Open `script.R` in RStudio.
+2. Edit the variables at the top of the script: the two sequences (`s1`, `s2`) and the gap penalty (`gap`).
+3. Make sure the path in `read.table()` points to your copy of `blosum50.txt`.
+4. Run the whole script (`Source`).
 
-```bash
-Rscript alineamiento.R SEQUENCE1 SEQUENCE2 GAP blosum50.txt
-```
-
-Example:
-
-```bash
-Rscript alineamiento.R BEAVTY BEAST 0 blosum50.txt
-```
-
-Expected output:
+Example with `s1 = "BEAVTY"`, `s2 = "BEAST"` and `gap = 0`:
 
 ```
 BEA-VTY
