@@ -1,5 +1,4 @@
 # Global Sequence Alignment (Needleman-Wunsch)
-# Global Sequence Alignment (Needleman-Wunsch)
 
 R program that aligns two protein sequences using the Needleman-Wunsch algorithm and the BLOSUM50 substitution matrix.
 
