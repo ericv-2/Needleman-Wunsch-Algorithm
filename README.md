@@ -38,7 +38,7 @@ Total score: 22
 
 ## Files
 
-- `alineamiento.R`: main script
+- `script.R`: main script
 - `blosum50.txt`: BLOSUM50 substitution matrix (source: NCBI)
 
 ## Reference
